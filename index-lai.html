@@ -1,113 +1,66 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flex Turismos</title>
-    <link rel="stylesheet" href="./style.css">
-</head>
-<body>
-    <header>
-        <h1>Sistema de Vendas TESTE</h1>
-        <ul>
-            <li><a href="#quem-somos">Quem Somos</a></li>
-            <li><a href="#servicos">Serviços</a></li>
-            <li><a href="#planos">Planos</a></li>
-        </ul>
-    </header>
-
-    <div>
-        <div>
-            <h1>Sistema <br>de Vendas</h1>
-            <p>O melhor serviço para você!</p>
-            <a href="">Saiba Mais!</a>
-        </div>
-
-        <div>
-            <div><img src="./images/0-main.png" alt="banner de apresentação"></div>
-        </div>
-    </div>
-
-    <div>
-        <div>
-            <img src="./images/1-quem-somos.png" alt="balcão de atendimento">
-        </div>
-
-        <div>
-            <h2>Quem somos</h2>
-            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. </p>
-            <p>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
-        </div>
-    </div>
-
-    <div>
-        <div>
-            <h2>Serviços</h2>
-        </div>
-
-        <div>
-            <div>
-                <div><img src="./images/icon-2.png" alt="hospedagens"></div>
-                <p>Hospedagens</p>
-                <a href="#">Comprar Agora</a>
+<DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Sistema de Vendas</title>
+        <!-- CSS -->
+        <link rel="stylesheet" href="css/styles.css" />
+        <!-- Fonte-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link 
+          href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" 
+          rel="stylesheet"
+        />
+        <!-- Icons-->
+        <link 
+          rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+        />
+    </head>
+    <body>
+        <header id="event-description">
+            <div id="disclaimer">
+                <h2>Página de Vendas</h2>
+                <p class="about-event">
+                    Conheça o sistema que vai revolucionar as suas vendas
+                </p>
+                <p>Data do evento:</p>
+                <p class="event-date"> Domingo, 18 de Setembro, a partir das 14h</p>
             </div>
+            <div id="susbrition-form">
+                <p>Preencha o formulário para saber mais sobre o evento</p>
+                <form>
+                    <div class="form-group">
+                        <label for="name">Nome</label>
+                        <input type="text" name="name" placeholder="Digite seu nome" />
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" placeholder="Digite seu melhor email" />
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Celular</label>
+                        <input type="text" name="phone" placeholder="Número do seu Whatsapp" />
+                    </div>
+                    <div class="form-group">
+                        <label for="interest">Principal interesse</label>
+                        <select name="interest">
+                            <option value="" disabled selected>Selecione</option>
+                            <option value="commercial-automation">Automação Comercial</option>
+                            <option value="order-management">Gestão de pedidos</option>
+                            <option value="issuance-of-invoice">Emissão de NFs e Boletos</option>
+                            <option value="others">Outros</option>
+                        <select>
+                    </div>
+                    <input type="submit" class="btn" value="Quero me inscrever">
 
-            <div>
-               <div><img src="./images/icon-1.png" alt="pacote de viagens"></div>
-               <p>Pacotes de viagens</p>
-               <a href="#">Comprar Agora</a>
+                </form>
+
             </div>
-
-            <div>
-                <div><img src="./images/icon-3.png" alt="roteiros personalizados"></div>
-                <p>Roteiros personalizados</p>
-                <a href="#">Comprar Agora</a>
-            </div>
-
-        </div>
-    </div>
-
-    <div>
-
-        <div>
-            <h3>Plano 2</h3>
-            <ul>
-                <li>Suporte 24h</li>
-                <li>Serviços de quarto</li>
-                <li>Guia turístico</li>
-            </ul>
-            <a href="#">Saiba Mais!</a>
-        </div>
-
-        <div>
-            <h3>Plano 2</h3>
-            <ul>
-                <li>Suporte 24h</li>
-                <li>Serviços de quarto</li>
-                <li>Guia turístico</li>
-                <li>Roteiro de trilhas</li>
-                <li>Serviço personalizado</li>
-            </ul>
-            <a href="#">Saiba Mais!</a>
-        </div>
-
-        <div>
-            <h3>Plano 3</h3>
-            <ul>
-                <li>Suporte 24h</li>
-                <li>Serviços de quarto</li>
-                <li>Guia turístico</li>
-                <li>Roteiro de trilhas</li>
-                <li>Serviço personalizado</li>
-                <li>Área Vip</li>
-            </ul>
-            <a href="#">Saiba Mais!</a>
-        </div>
-    </div>
-
-    <footer>
-        <p>&copy; 2021 CSS Flexbox</p>
-        <p>Desenvolvido por: Lai Costa da equipe Programe de Graça</p>
-    </footer>
-</body>
+        </header>
+    </body>
 </html>
