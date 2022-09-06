@@ -31,8 +31,8 @@
     color: var(--primary);
 }
 
-#disclaimer h2, {
-    font-size:3em;
+#disclaimer h2 {
+    font-size: 3em;
     margin-bottom: 1em;
 }
 
@@ -53,14 +53,14 @@
     font-weight: bold;
 }
 
-#subscription-form {
+#susbrition-form {
     background-color: var(--secondary);
     padding: 2em;
     max-width: 22%;
 }
 
-#subscription-form p {
-    font-size: 1,5em;
+#susbrition-form p {
+    font-size: 1.5em;
     color: var(--secondary);
     margin-bottom: 1em;
 }
@@ -71,9 +71,9 @@
     margin-bottom: 0.8em;
 }
 
-.form-group lebel {
+.form-group label {
     color: var(--text-tertiary);
-    margin-bottom: 3em;
+    margin-bottom: 0.3em;
     font-weight: bold;
 }
 
